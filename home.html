@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techno Fast Industries</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="logo.png" alt="Techno Fast Industries Logo" class="logo">
+            <div class="industry-name">
+                <h1>Techno Fast Industries</h1>
+                <p>Your Trusted Partner in Fasteners</p>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-bar" onclick="toggleSidebar()">
+            &#9776;
+        </div>
+    </nav>
+
+    <!-- Sidebar for Small Screens -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <img src="logo.png" alt="Techno Fast Industries Logo" class="logo">
+            <div class="industry-name">
+                <h2>Techno Fast Industries</h2>
+            </div>
+            <div class="close-btn" onclick="toggleSidebar()">×</div>
+        </div>
+        <ul class="sidebar-links">
+            <li><a href="home.html" onclick="toggleSidebar()">Home</a></li>
+            <li><a href="about.html" onclick="toggleSidebar()">About Us</a></li>
+            <li><a href="product.html" onclick="toggleSidebar()">Product</a></li>
+            <li><a href="contact.html" onclick="toggleSidebar()">Contact</a></li>
+        </ul>
+    </div>
+    
+
+<!-- Font Awesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- Hero Section with Slides -->
+    <!--<section class="hero">-->
+    <!----    <div class="slide-container" id="slideContainer">
+            <div class="slide">
+                <img src="slide1.jpg" alt="Slide 1">
+                <div class="tagline">Quality Fasteners You Can Trust</div>
+            </div>
+            <div class="slide">
+                <img src="slide2.jpg" alt="Slide 2">
+                <div class="tagline">Innovative Solutions for Industry</div>
+            </div>
+            <div class="slide">
+                <img src="slide3.jpg" alt="Slide 3">
+                <div class="tagline">Precision and Reliability</div>
+            </div>
+            <!-- Add more slides as needed 
+        </div>
+        <a class="prev" onclick="prevSlide()">&#10094;</a>
+        <a class="next" onclick="nextSlide()">&#10095;</a>
+    </section>-->
+
+    <!-- Hero Section with Slides -->
+<section class="hero">
+    
+    <div class="slide-container" id="slideContainer">
+        <div class="slide">
+            <img src="backgroundone.jpeg" alt="Slide 1">
+            <div class="tagline">Quality Fasteners You Can Trust</div>
+        </div>
+        <div class="slide">
+            <img src="backgroundtwo.jpeg" alt="Slide 2">
+            <div class="tagline">Innovative Solutions for Industry</div>
+        </div>
+        <div class="slide">
+            <img src="backgroundthree.jpeg" alt="Slide 3">
+            <div class="tagline">Precision and Reliability</div>
+        </div>
+        <!-- Add more slides as needed -->
+    </div>
+    <a class="prev" onclick="prevSlide()"><i class="fa fa-chevron-left"></i></a>
+    <a class="next" onclick="nextSlide()"><i class="fa fa-chevron-right"></i></a>
+</section>
+
+<div class="section-container" id="animatedSection">
+    <div class="text-content">
+        <h2>WELCOME TO</h2>
+        <h3>Techno Fast Industries</h3>
+        <p>Techno Fast Industries manufacturing and distribution of high-quality fasteners and related products. We specialize in the production of all kinds of mild steel (MS) and stainless steel (SS) washers, nuts, and bolts, catering to industries that demand durability and precision.we pride ourselves on our expertise and ability to meet our clients’ specific needs, whether it’s for small projects or large-scale industrial demands.At Techno Fast Industries, our commitment to excellence drives us to continually improve and innovate, maintaining the highest standards in everything we do.
+            Let us be your partner in fastener solutions!</p>
+        <div class="features">
+            <div class="feature-item">
+                <i class="fas fa-check-circle"></i> Experienced Professionals
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-check-circle"></i> Client-Centric Approach
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-check-circle"></i> Timely Delivery
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-check-circle"></i> Complete Client Satisfaction
+            </div>
+        </div>
+        
+        <a href="about.html" class="more-button">+ View More</a>
+    </div>
+    <div class="image-container">
+        <img src="machine.jpg" alt="Rolling Shutter">
+    </div>
+</div>
+
+<section class="mission-vision-goal">
+    <div class="content-wrapper">
+        <div class="content-box">
+            <i class="icon-box fas fa-bullseye animate-icon"></i>
+            <h2 class="heading-box animate-heading">Our Mission</h2>
+            <p class="text-box animate-text">At Techno Fast Industries, we are committed to manufacturing high-quality washers, nut bolts, and fasteners that meet the evolving needs of the industry with precision and durability.</p>
+        </div>
+        <div class="content-box">
+            <i class="icon-box fas fa-eye animate-icon"></i>
+            <h2 class="heading-box animate-heading">Our Vision</h2>
+            <p class="text-box animate-text">Our vision is to be the leading provider of fastening solutions, delivering excellence, innovation, and customer satisfaction across all industries we serve.</p>
+        </div>
+        <div class="content-box">
+            <i class="icon-box fas fa-chart-line animate-icon"></i>
+            <h2 class="heading-box animate-heading">Our Goal</h2>
+            <p class="text-box animate-text">Our goal is to continuously expand our product range and improve manufacturing processes to ensure we provide the most reliable and cost-effective fastener solutions globally.</p>
+        </div>
+    </div>
+</section>
+<!--<div class="techno-container">
+    <div class="techno-company-info">
+        <h1>Why Choose <span class="techno-highlight">Techno Fast Industries</span>?</h1>
+        <p>These four factors highlight why Techno Fast Industries is a preferred choice for customers looking for high-quality, reliable, and customized fastening solutions.</p>
+        <div class="techno-factors">
+            <div class="techno-factor" id="techno-comprehensive">
+                <i class="fas fa-wrench techno-icon"></i>
+                <h3>Comprehensive Range</h3>
+            </div>
+            <div class="techno-factor" id="techno-quality">
+                <i class="fas fa-award techno-icon"></i>
+                <h3>Quality Assurance</h3>
+            </div>
+            <div class="techno-factor" id="techno-expertise">
+                <i class="fas fa-tools techno-icon"></i>
+                <h3>Technical Expertise</h3>
+            </div>
+            <div class="techno-factor" id="techno-turnaround">
+                <i class="fas fa-stopwatch techno-icon"></i>
+                <h3>Fast Turnaround Time</h3>
+            </div>
+        </div>
+    </div>
+    
+</div>!-->
+<div class="techno-container">
+    <div class="techno-company-info">
+        <center><h1>Why Choose <span class="techno-highlight">Techno Fast Industries</span>?</h1></center>
+        
+    </div>
+    <div class="techno-factors">
+        <div class="techno-factor">
+            <i class="techno-icon fas fa-wrench"></i>
+            <h3>Comprehensive Range</h3>
+            <p>Offering a wide range of products for every fastening need.</p>
+        </div>
+        <div class="techno-factor">
+            <i class="techno-icon fas fa-certificate"></i>
+            <h3>Quality Assurance</h3>
+            <p>Guaranteed quality control for long-lasting performance.</p>
+        </div>
+        <div class="techno-factor">
+            <i class="techno-icon fas fa-tools"></i>
+            <h3>Technical Expertise</h3>
+            <p>Decades of experience in fastening technology.</p>
+        </div>
+        <div class="techno-factor">
+            <i class="techno-icon fas fa-clock"></i>
+            <h3>Fast Turnaround Time</h3>
+            <p>Quick delivery to keep your projects on schedule.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="custom-slider-heading">
+    <h1>Our Product Range</h1>
+</div>
+<div class="custom-slider">
+    <div class="custom-slide">
+        <img src="first.png" alt="Fastening Solution 1">
+        <div class="custom-slide-content">
+            <h2>High-quality, reliable, and customized fastening solutions.</h2>
+            <p>Maharashtra Fasteners Pvt. Ltd.’s dedication to providing the highest quality fastening solutions.</p>
+            <a href="product.html" class="custom-cta-button">Discover More</a>
+        </div>
+    </div>
+    <div class="custom-slide">
+        <img src="second.png" alt="Fastening Solution 2">
+        <div class="custom-slide-content">
+            <h2>Precision Engineering for Fastening Needs</h2>
+            <p>Providing industry-leading fastening solutions tailored to customer requirements.</p>
+            <a href="product.html" class="custom-cta-button">Discover More</a>
+        </div>
+    </div>
+    <div class="custom-slide">
+        <img src="third.png" alt="Fastening Solution 2">
+        <div class="custom-slide-content">
+            <h2>Precision Engineering for Fastening Needs</h2>
+            <p>Providing industry-leading fastening solutions tailored to customer requirements.</p>
+            <a href="product.html" class="custom-cta-button">Discover More</a>
+        </div>
+    </div>
+    <div class="custom-slide">
+        <img src="fourth.png" alt="Fastening Solution 2">
+        <div class="custom-slide-content">
+            <h2>Precision Engineering for Fastening Needs</h2>
+            <p>Providing industry-leading fastening solutions tailored to customer requirements.</p>
+            <a href="product.html" class="custom-cta-button">Discover More</a>
+        </div>
+    </div>
+    <div class="custom-slide">
+        <img src="fifth.png" alt="Fastening Solution 2">
+        <div class="custom-slide-content">
+            <h2>Precision Engineering for Fastening Needs</h2>
+            <p>Providing industry-leading fastening solutions tailored to customer requirements.</p>
+            <a href="product.html" class="custom-cta-button">Discover More</a>
+        </div>
+    </div>
+    <div class="custom-slide">
+        <img src="sixth.png" alt="Fastening Solution 2">
+        <div class="custom-slide-content">
+            <h2>Precision Engineering for Fastening Needs</h2>
+            <p>Providing industry-leading fastening solutions tailored to customer requirements.</p>
+            <a href="product.html" class="custom-cta-button">Discover More</a>
+        </div>
+    </div>
+    <div class="custom-slide">
+        <img src="seventh.png" alt="Fastening Solution 2">
+        <div class="custom-slide-content">
+            <h2>Precision Engineering for Fastening Needs</h2>
+            <p>Providing industry-leading fastening solutions tailored to customer requirements.</p>
+            <a href="product.html" class="custom-cta-button">Discover More</a>
+        </div>
+    </div>
+    <div class="custom-slide">
+        <img src="eighth.png" alt="Fastening Solution 2">
+        <div class="custom-slide-content">
+            <h2>Precision Engineering for Fastening Needs</h2>
+            <p>Providing industry-leading fastening solutions tailored to customer requirements.</p>
+            <a href="product.html" class="custom-cta-button">Discover More</a>
+        </div>
+    </div>
+    <div class="custom-slide">
+        <img src="ninth.png" alt="Fastening Solution 2">
+        <div class="custom-slide-content">
+            <h2>Precision Engineering for Fastening Needs</h2>
+            <p>Providing industry-leading fastening solutions tailored to customer requirements.</p>
+            <a href="product.html" class="custom-cta-button">Discover More</a>
+        </div>
+    </div>
+</div>
+<!--whasapp u sfix button-->
+<a href="https://wa.link/58on1d" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<section class="contact-sectionone">
+    <center><h2>Contact Techno Fast Industries</h2></center>
+    <div class="contact-buttons">
+        <a href="tel:+123456789" class="contact-btn phone-btn">
+            <i class="fas fa-phone"></i> Phone Us
+        </a>
+        <a href="https://wa.link/58on1d" class="contact-btn whatsapp-btn">
+            <i class="fab fa-whatsapp"></i> WhatsApp Us
+        </a>
+    </div>
+</section>
+
+<footer class="contact-section">
+    <h2>Contact Us</h2>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="icon-text">
+                <i class="fas fa-home"></i>
+                <p>Gat No. 147, Behind Abhishek Restaurant, Opp. Kailash Vahan Udyog Ltd. Alandi Markal Road, Tal Khed, Dist-Pune -412105 maharashtra India.</p>
+            </div>
+            <div class="icon-text">
+                <i class="fas fa-phone"></i>
+                <p>+91 9579618751 / 9075866419 </p>
+            </div>
+            <div class="icon-text">
+                <i class="fas fa-envelope"></i>
+                <p>technofastindustries.pune@gmail.com</p>
+            </div>
+            <h3>Social Media</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61566169943779&viewas=100000686899395&"><i class="fab fa-facebook-f"></i></a>
+                <a><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/@TECHNOFASTINDUSTRIES"><i class="fab fa-youtube"></i></a>
+                <a href=" https://www.instagram.com/technofastindustries "><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="map-container">
+            <!-- Google Maps embed -->
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3779.8418379070713!2d73.91719727344706!3d18.671092064562476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sGat%20No.%20147%2C%20Behind%20Abhishek%20Restaurant%2C%20Opp.%20Kailash%20Vahan%20Udyog%20Ltd.%20Alandi%20Markal%20Road%2C%20Tal%20Khed%2C%20Dist-Pune%20-412105%20!5e0!3m2!1sen!2sin!4v1726497363924!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+</footer>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <script src="scripts.js"></script>
+</body>
+</html>
